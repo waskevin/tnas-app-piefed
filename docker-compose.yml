@@ -1,0 +1,6 @@
+services:
+  piefed:
+    image: dockurr/piefed:1
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
